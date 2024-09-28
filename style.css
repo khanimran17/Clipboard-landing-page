@@ -67,6 +67,9 @@ button{
 }
 .btn-one:hover{
     background-color: #5ccbb8;
+    border-top: none;
+    border-bottom: none;
+    transition: all ease 0.3s;
 }
 
 .btn-two{
@@ -79,6 +82,9 @@ button{
 
 .btn-two:hover{
     background-color: #9ba7ed;
+    border-top: none;
+    border-bottom: none;
+    transition: all ease 0.3s;
 }
 
 .intro{
@@ -224,6 +230,7 @@ footer a {
 
 footer a:hover {
     color: #26bba4;
+    transition: all ease 0.3s;
 }
 
 .links a {
@@ -240,4 +247,5 @@ footer a:hover {
 
 a svg:hover path {
     fill: #26bba4;
+    transition: all ease 0.3s;
 }
